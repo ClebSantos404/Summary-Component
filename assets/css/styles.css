@@ -28,8 +28,8 @@ body {
 }
 
 .container {
-  width: 380px;
-  height: 265px;
+  width: 600px;
+  height: 365px;
   flex-direction: row;
   border-radius: 20px;
   display: flex;
@@ -42,7 +42,7 @@ img {
 
 .box1 {
   height: 100%;
-  width: 220px;
+  width: 270px;
   border-radius: 17px; 
   background: linear-gradient(180deg, rgba(90,61,249,1) 20%, rgba(50,43,234,1) 66%);
 }
@@ -59,47 +59,59 @@ img {
 
 .result-number {
   background: var(--bg-number);
-  border-radius: 50px;
-  border: 0.05px solid #6248bec0;
-  height: 100px;
-  width: 100px;
+  border-radius: 80px 80px 80px 80px;
+  border: 1px solid #6248be88;
+  height: 150px;
+  width: 150px;
   text-align: center;
   margin: 5px auto;
-  padding: 28px;
+  padding: 30px;
 }
 
 .result-number p {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 60px;
   text-transform: uppercase;
   color: white;
+
 }
 
 .result-number span {
   display: flex;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   justify-content: center;
   color: var(--color-number);
 }
 
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
 .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 13px;
-  margin-top: 15px;
-  color: white;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.527);
 }
 
 .info p {
-  font-size: 10px;
-  margin-top: 8px;
+  text-align: center;
+  width: 220px;
+  font-size: 16px;
   color: var(--color-number);
   font-weight: 500;
 }
 
 .box2 {
   height: 100%;
-  width: 230px;
+  width: 330px;
   border-radius: 0 17px 17px 0;
 }
 
@@ -110,50 +122,46 @@ img {
 
 .results {
   display: flex;
-  font-size: 11px;
+  font-size: 13px;
   flex-direction: column;
   margin: 20px;
   transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
 }
 
+.reaction, .memory, .verbal, .visual {
+  border-radius: 8px;
+  padding: 13px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
 .reaction {
   display: flex;
   background: #f8adad2a;
-  border-radius: 5px;
-  padding: 6px;
   justify-content: space-between;
   color: var(--color-reaction);
-  margin-bottom: 14px;
 }
 
 .memory {
   display: flex;
   background: #f8adad2a;
-  padding: 6px;
-  border-radius: 5px;
   justify-content: space-between;
   color: var(--color-memory);
-  margin-bottom: 14px;
 }
 
 .verbal {
   display: flex;
   background: #76c9af2a;
-  padding: 6px;
-  border-radius: 5px;
   justify-content: space-between;
   color: var(--color-verbal);
-  margin-bottom: 14px;
 }
 
 .visual {
   display: flex;
   background: #76c9af2a;
-  padding: 6px;
-  border-radius: 5px;
   justify-content: space-between;
   color: var(--color-visual);
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -164,13 +172,13 @@ img {
 
 .btn button {
   cursor: pointer;
-  padding: 7px 55px;
-  border-radius: 15px;
+  padding: 15px 95px;
+  border-radius: 25px;
   border: none;
   background: var(--bg-btn);
   color: white;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .btn button:hover {
@@ -178,9 +186,9 @@ img {
 }
 
 .modify-number {
-  color: black;
-  font-weight: 600;
-  font-size: 10px;
+  color: rgba(0, 0, 0, 0.801);
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .m2 {
